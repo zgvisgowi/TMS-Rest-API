@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    background: #2d3748;
+}
+header{
+    background: #1a202c;
+}
+header div{
+    justify-content: space-between;
+    color: yellow;
+    display: flex;
+
+}
+nav ul{
+
+    display: flex;
+    list-style-type: none;
+}
+nav{
+    float:right;
+}
+li{
+    margin-left: 5px;
+}
+a:hover{
+    color:red;
+}
+a{
+    color:yellow;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+header h1 a span{
+    color:red;
+}
+nav ul{
+    text-align: justify;
+}
+.container{
+    margin:auto;
+    width:1200px;
+    align-items: center;
+}
+
+.box{
+
+    color:white;
+    padding:10px;
+    width: 480px;
+    border:2px solid rgb(42, 42, 255);
+    border-radius: 6px;
+    align-items: center;
+    margin: 12px auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type="text"]{
+    display: block;
+    width: 100%;
+    height: 25px;
+    border-radius: 2px;
+}
+input::placeholder{
+    color: #4981a4;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+}
+input[type="submit"]{
+    width: 100%;
+    margin:8px;
+    border:2px solid #4949ff;
+    border-radius: 4px;
+    height: 30px;
+    color: #000000;
+    background: #4949ff;
+}
+select{
+    width: 100%;
+}
+
+
+
+footer{
+    text-align:center;
+}
